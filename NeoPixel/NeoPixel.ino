@@ -3,7 +3,7 @@
   #include <avr/power.h>
 #endif
 #define PIN        6
-#define NUMPIXELS 16
+#define NUMPIXELS 63
 
 Adafruit_NeoPixel pixels(NUMPIXELS, PIN, NEO_GRB + NEO_KHZ800);
 #define DELAYVAL 500
